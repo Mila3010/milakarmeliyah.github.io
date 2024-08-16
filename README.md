@@ -11,6 +11,23 @@ https://mila3010.github.io/milakarmeliyah.github.io/BelajarHTML/table
 https://mila3010.github.io/milakarmeliyah.github.io/BelajarHTML/form
 
 #Belajar CSS:
+
+https://mila3010.github.io/milakarmeliyah.github.io/BelajarCSS/index.html
+
 https://mila3010.github.io/milakarmeliyah.github.io/BelajarCSS/index2
 
 https://mila3010.github.io/milakarmeliyah.github.io/BelajarCSS/about
+
+https://mila3010.github.io/milakarmeliyah.github.io/BelajarCSS/CSS-Selector/blog.html
+
+https://mila3010.github.io/milakarmeliyah.github.io/BelajarCSS/CSS-Selector/box.html
+
+https://mila3010.github.io/milakarmeliyah.github.io/BelajarCSS/CSS-Selector/index.html
+
+https://mila3010.github.io/milakarmeliyah.github.io/BelajarCSS/Media-Query/index.html
+
+https://mila3010.github.io/milakarmeliyah.github.io/BelajarCSS/Open-Editors/index.html
+
+https://mila3010.github.io/milakarmeliyah.github.io/BelajarCSS/Open-Editors/index2.html
+
+https://mila3010.github.io/milakarmeliyah.github.io/BelajarCSS/Pricetable/index.html
