@@ -1,0 +1,23 @@
+body {
+  background-color: pink;
+}
+
+h1,
+h2,
+h3 {
+  color: wheat;
+  background-color: plum;
+  font-size: smaller;
+}
+
+span {
+  color: black;
+}
+
+#list2 {
+  color: brown;
+}
+
+.mark {
+  background-color: aquamarine;
+}

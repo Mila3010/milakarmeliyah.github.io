@@ -1,0 +1,15 @@
+h1 {
+  color: rgb(165, 42, 42);
+  /* font-size: small; */
+  background-color: aqua;
+}
+
+button {
+  color: blueviolet;
+  background-color: #d2b48c;
+}
+
+p {
+  color: white;
+  background-color: rgb(128, 128, 128);
+}
