@@ -32,7 +32,7 @@ https://mila3010.github.io/milakarmeliyah.github.io/BelajarCSS/Open-Editors/inde
 
 https://mila3010.github.io/milakarmeliyah.github.io/BelajarCSS/Pricetable/index.html
 
-# Belajar Bootstrap
+# Belajar Bootstrap:
 
 https://mila3010.github.io/milakarmeliyah.github.io/BelajarBootstrap/index.html
 
@@ -43,3 +43,13 @@ https://mila3010.github.io/milakarmeliyah.github.io/BelajarBootstrap/index3.html
 https://mila3010.github.io/milakarmeliyah.github.io/BelajarBootstrap/indexexample.html
 
 https://mila3010.github.io/milakarmeliyah.github.io/BelajarBootstrap/Museum/index.html#ticket
+
+# Belajar JavaScript:
+
+https://mila3010.github.io/milakarmeliyah.github.io/BelajarJavaScript/OOP/index.html 
+
+https://mila3010.github.io/milakarmeliyah.github.io/BelajarJavaScript/index.html
+
+https://mila3010.github.io/milakarmeliyah.github.io/BelajarJavaScript/index2.html
+
+https://mila3010.github.io/milakarmeliyah.github.io/BelajarJavaScript/index3.html
