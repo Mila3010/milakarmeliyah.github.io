@@ -85,3 +85,12 @@ https://mila3010.github.io/milakarmeliyah.github.io/CP-JavaScript-DOM/randomcolo
 https://mila3010.github.io/milakarmeliyah.github.io/CP-JavaScript-DOM/selection/index.html
 
 https://mila3010.github.io/milakarmeliyah.github.io/CP-JavaScript-DOM/thiskeyword/index.html
+
+#Belajar AJAX dan Web API
+
+https://mila3010.github.io/milakarmeliyah.github.io/BelajarAjax&Web%20API/ajaxapi/index.html
+
+https://mila3010.github.io/milakarmeliyah.github.io/BelajarAjax&Web%20API/getdadjoke/index.html
+
+https://mila3010.github.io/milakarmeliyah.github.io/BelajarAjax&Web%20API/getdadjoke/index.html
+
