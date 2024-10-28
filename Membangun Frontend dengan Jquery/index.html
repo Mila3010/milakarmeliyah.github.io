@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="slick-1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="slick-1.8.1/slick/slick-theme.css" />
+
+    <!-- <style>
+      .merah {
+        color: red;
+      }
+      .biru {
+        color: blue;
+      }
+    </style> -->
+  </head>
+
+  <body>
+    <div class="your-class">
+      <div>your content</div>
+      <div>your content</div>
+      <div>your content</div>
+    </div>
+    <button class="my_popup_open">Open popup</button>
+    <div id="my_popup">
+      ...popup content...
+
+      <!-- Add an optional button to close the popup -->
+      <button class="my_popup_close">Close</button>
+    </div>
+    <!-- <h1>Kemana Kamu ingin pergi</h1> -->
+    <!-- <ul class="lokasi">
+      <li class="bandung">
+        Bandung
+        <button id="keBandung">Pergi!</button>
+        <button id="hapusBandung">X</button>
+      </li>
+      <li class="surabaya">Surabaya</li>
+      <li class="jakarta">Jakarta</li> -->
+    <!-- <li>
+        <input type="text" class="inputan" value="90" />
+      </li> -->
+    <!-- </ul> -->
+    <!-- <button id="toggleBandung">Toggle Bandung</button> -->
+    <!-- <button id="gantiBandungJadiBiru">JADI BIRU!</button>
+    <button id="gantiBandungJadiMerah">JADI MERAH!</button>
+    <button id="gantiBandungJadiBesar">JADI BESAR!</button> -->
+
+    <script src="jquery-3.7.1.js"></script>
+    <script src="slick-1.8.1/slick/slick.min.js"></script>
+    <script src="jquery-popup-overlay/jquery.popupoverlay.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".your-class").slick();
+        $("#my_popup").popup();
+      });
+      // $(document).ready(function () {
+      //   $("#gantiBandungJadiBiru").on("click", function () {
+      //     $(".bandung").removeClass("merah");
+      //     $(".bandung").addClass("biru");
+      //   });
+      //   $("#gantiBandungJadiMerah").on("click", function () {
+      //     $(".bandung").removeClass("biru");
+      //     $(".bandung").addClass("merah");
+      //   });
+      //   $("#gantiBandungJadiBesar").on("click", function () {
+      //     $(".bandung").css({
+      //       fontSize:100
+      //     })
+      //   });
+      // });
+      // $(document).ready(function () {
+      //   $("#keBandung").on("click", function () {
+      //     alert("Saya suka ke Bandung!");
+      //   });
+      //   $("#hapusBandung").on("click", function () {
+      //     $(".bandung").remove();
+      //     alert("Bandung dihapus :(");
+      //   });
+      //   $("#toggleBandung").on("click", function () {
+      //     $(".bandung").animate({
+      //       marginLeft: 1000,
+      //     });
+      //   });
+      // console.log($(".inputan").val());
+      // $(".bandung").text("Cimahi");
+      // $(".surabaya").html("<em>Surabaya</em>");
+      // $(".inputan").val(150);
+      // $(".bandung").remove();
+      // $(".surabaya").empty();
+      // });
+    </script>
+  </body>
+</html>
