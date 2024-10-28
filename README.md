@@ -94,3 +94,9 @@ https://mila3010.github.io/milakarmeliyah.github.io/BelajarAjax&Web%20API/getdad
 
 https://mila3010.github.io/milakarmeliyah.github.io/BelajarAjax&Web%20API/getdadjoke/index.html
 
+#Membangun Frontend dengan Jquery, Library Js Legendaris
+
+https://mila3010.github.io/milakarmeliyah.github.io/Membangun%20Frontend%20dengan%20Jquery/index.html
+
+https://mila3010.github.io/milakarmeliyah.github.io/Membangun%20Frontend%20dengan%20Jquery/jquery-popup-overlay/cypress/index.html
+
