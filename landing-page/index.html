@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <style>
+            body
+            {
+                padding-top: 56px;
+            }
+            .jumbotron
+            {
+                text-shadow: #000 1px 1px;
+            }
+            .background-header
+            {
+                background-image: url("images/banner.jpg");
+                background-color: #fafbfc;
+                height: 400px;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: relative;
+            }
+            .button-primer {
+                background-color: #5d3427;
+                border-color : #6b3c2d;
+                color        : #fff;
+                text-shadow: 0px 0px;  
+            }
+            .button-primer:hover {
+                background-color: #5d3427;
+                color        : #fff;
+                text-shadow: 0px 0px;  
+            }
+            .service-style
+            {
+                margin-top: 15px;
+                background-color: #fafbfc;
+            }
+            .text-brown
+            {
+            color:#5d3427;
+            }
+            .bg-plum{
+                background-color: #c88f7d;
+            }
+            h2:before,
+            h2:after {
+                background-color: #5d3427;
+                content: "";
+                display: inline-block;
+                height: 1px;
+                position: relative;
+                vertical-align: middle;
+                width: 25%;
+            }
+            h2:before {
+                right: 0.5em;
+                margin-left: -50%;
+            }
+            h2:after {
+                left: 0.5em;
+                margin-right: -50%;
+            }
+            .button-sekunder {
+                background-color: transparent;
+                border-color: #dbdbdb;
+                color: #5d3427;
+            } 
+            .button-sekunder:hover {
+                background-color: #5d3427;
+                border-color: #dbdbdb;
+                color: #fff;
+            }
+            .cover 
+            {
+            background: no-repeat center/cover;
+            }
+            </style>
+    </head>
+    <body>
+     <!--Navigasi Bar-->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="images/logo.png"></a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                       <a class="nav-link" href="#">Home</a>
+                     </li>
+                     <li class="nav-item">
+                         <a class="nav-link" href="#services">Service</a>
+                     </li>
+                      <li class="nav-item">
+                         <a class="nav-link" href="#product">Product</a>
+                      </li>
+                       <li class="nav-item">
+                           <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+               </ul>
+  
+            </div>
+
+          </div>
+    </nav>
+
+    <!--Header-->
+    <section class="jumbotron jumbotron-fluid background-header">
+        <div class="container-fluid text-center">
+            <h1 class="display-3" style="color:aliceblue; ">Coffe Shop Terbaik</h1>
+            <p class="lead" style="font-weight: bold;color:#fff;">Kami menyediakan banyak menu menarik dan pastinya enak</p>
+            <p><a href="#" class="btn button-primer btn-lg" role="button">Gabung sekarang</a>
+            <a href="#" class="btn btn-secondary btn-lg" style="text-shadow: 0px 0px;" role="button">pilih-pilih dulu</a>
+
+        </p>
+        </div>
+    </section>
+
+    <!--Service-->
+    <section id="services" class="container-fluid" service-style">
+        <div class="row text-center">
+            <div class="col-12 pb-4">
+                <h2 class="display-4 text-center mb-5" style="margin-top: 5rem!important;">Mengapa memilih Coffe Shop Kami? 
+                </h2>
+           </div>
+           <div class="col-12 col-sm-6 col-lg-3">
+                <span class="fa-stack fa-2x">
+                    <i class="fas fa-circle fa-stack-2x text-brown"></i>
+                    <i class="fas fa-list-ol fa-stack-1x text-white""></i>
+                </span>
+                <h3 class="mt-3 text-brown h4">Fasilitas Oke</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>  
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <span class="fa-stack fa-2x">
+                    <i class="fas fa-circle fa-stack-2x text-brown"></i>
+                    <i class="fas fa-laptop-code fa-stack-1x text-white"></i>
+                </span>
+                <h3 class="mt-4 text-brown">Menu lengkap</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>  
+            </div>
+           <div class="col-12 col-sm-6 col-lg-3">
+                <span class="fa-stack fa-2x">
+                    <i class="fas fa-circle fa-stack-2x  text-brown"></i>
+                    <i class="fas fa-money-bill fa-stack-1x text-white"></i>
+                </span>
+                <h3 class="mt-4 text-brown">Biaya Terjangkau</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>  
+           </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <span class="fa-stack fa-2x">
+                    <i class="fas fa-circle fa-stack-2x  text-brown"></i>
+                     <i class="fas fa-chart-line fa-stack-1x text-white"></i>
+                 </span>
+                <h3 class="mt-4 text-brown">Terarah</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>  
+            </div>
+           </div>
+           <div class="row text-center">
+            <div class="col-12 pt-3 mb-5">
+            <a class="btn text-white bg-plum btn-lg" target="_blank" href="#" role="button">Service Lainnya</a>
+           </div>
+        </div>
+        </div>
+    </section>
+
+    <!--Product-->
+    <section id="product" class="container">
+        <div class="row text-center">
+            <div class="col-12 pb-4">
+                <h2 class="display-4 text-center mb-5" style="margin-top: 5rem!important;">Produk kami</h2>
+            </div>
+            <!-- Produk Pertama -->
+                <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img class="card-img-top" style="max-height:400px" src="images/espresso.jpg" alt ="Product 1">
+                      <div class="card-body" style="min-height:250px">
+                        <h4 class="card-title">Espresso</h4>
+                        <p class="card-text">Espresso adalah kopi yang dibuat dalam hitungan detik melalui proses cepat tekanan air bersuhu tinggi mengesktraksi bubuk kopi halus padat.</p>
+                       </div>
+                       <div class="card-footer">
+                        <a href="#" class="btn button-sekunder">Lihat Detail & Harga »</a>
+                    </div>
+                </div>
+                </div>
+              <!--Produk Kedua -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                    <img class="card-img-top" style="max-height:400px" src="images/latte.jpg" alt ="Product 2">
+                    <div class="card-body" style="min-height:250px">
+                        <h4 class="card-title">Latte</h4>
+                        <p class="card-text">Caffé latte atau kopi latte ini merupakan salah satu jenis minuman kopi susu yang populer di samping Cappucino.</p>      
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn button-sekunder">Lihat Detail & Harga »</a>
+                    </div>
+                    </div>
+                </div>
+                <!--Produk Ketiga -->
+                    <div class="col-md-4 mb-4">
+                    <div class="card">
+                    <img class="card-img-top" style="max-height:400px" src="images/Americano-coffee.jpg" alt ="Product 3">
+                    <div class="card-body" style="min-height:250px">
+                        <h4 class="card-title">Americano</h4>
+                        <p class="card-text">Kopi Americano adalah minuman kopi yang dibuat dengan mencampurkan espresso dengan air panas. </p>
+                        </div>
+                        <div class="card-footer">           
+                        <a href="#" class="btn button-sekunder">Lihat Detail & Harga »</a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+</section>
+    </section>
+
+    <!--About-->
+    <section id="about" class="bg-light">
+        <div class="container-fluid-max">
+            <h2 class="display-4 text-center mb-5">Tentang kami </h2>
+            <div class="row no-gutters">
+        <!--gambar & text pertama-->
+        <div class="col-12 col-md-6">
+            <div style="padding: 15px;">
+                <h3 class="display-5 text-center text-brown mt-3 mb-3">Coffe Shop kami</h3>
+                <p style="text-align: justify;">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+
+                   </p>
+                   <div class="col-12 pt-3 text-center">
+                    <a class="btn bg-plum btn-lg text-white" target="_blank" 
+                    href="" role="button">Selengkapnya</a>
+                </div>
+            </div>
+
+
+
+        </div>
+        <div class="col-12 col-md-6">
+            <div class=" vh-100 cover" style="background-image: url('images/img1.jpg');"></div>
+        </div>
+       <!--gambar & teks kedua-->
+            <div class="col-12 col-md-6">
+                <div class=" vh-100 cover" style="background-image: url('images/img3.jpg');"></div>
+        </div>
+        <div class="col-12 col-md-6">     
+            <div style="padding: 15px;">
+                <h3 class="display-5 text-center text-brown mt-3 mb-3">Coffe bar kami</h3>
+                <p style="text-align: justify;">
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+
+                </p>
+                <div class="col-12 pt-3 text-center">
+                   <a class="btn bg-plum btn-lg text-white" target="_blank" 
+                       href="" role="button">Selengkapnya</a>
+                </div>            
+              </div>
+        </div>
+    </section>
+
+    <!--Contact-->
+    <section id="contact" class="container-fluid text-center" style="background-color: #ffe4c4; padding-top: 25px;">
+        <h2 class="display-4 pb-4">Hubungi Kami Sekarang!</h2>
+        <p class="lead pb-3">Kirim pesan untuk bergabung di Coffe Shop kami.</p>
+        <a href="#" class="btn button-primer btn-lg mb-4">WhatsApp Kami</a>
+    </section>
+
+    <!--Footer-->
+    <footer class="bg-light">
+        <div class="col-lg-12" style="padding:10px">
+        <div style="text-align: center;">
+            <a href="#" class="text-brown" style="padding: 5px;"><i class=" fab fa-facebook"></i></a>
+            <a href="#" class="text-brown" style="padding: 5px;"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="text-brown" style="padding: 5px;"><i class="fab fa-instagram"></i></a>
+            
+        </div>
+        <p class="text-center text-secondary">Copyright © Codepolitan 2024</p> 
+        </div>
+    </footer>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/9fbea79de7.js" crossorigin="anonymous"></script>
+
+</html>
