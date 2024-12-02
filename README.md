@@ -106,5 +106,7 @@ https://mila3010.github.io/milakarmeliyah.github.io/Portofolio/index.html
 
 #Membuat Landing Page Website dengan Bootstrap 4
 
+https://mila3010.github.io/milakarmeliyah.github.io/landing-page/index.html
+
 
 
